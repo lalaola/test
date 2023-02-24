@@ -10,3 +10,34 @@
     }
 
 }
+.toggle{
+    cursor: pointer;
+}
+.wrab-sidebar{
+    position: absolute;
+    transition: ease-in 1000ms;
+    top: 0;
+    bottom: 0;
+    background: $yellow;
+    z-index: 9;
+    width: 40%;
+    li{
+        list-style: none;
+        cursor: pointer;
+        line-height: 2.7rem;
+        
+    }
+    li:hover{
+        border-bottom: 2px solid black;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .sidebar{
+        .wrab-sidebar {
+            background-color: $yellow;
+            height: 100%;
+            width: 70vw;
+        }
+    }
+   }

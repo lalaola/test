@@ -1,19 +1,19 @@
 import React, { useEffect } from 'react';
 import Img from './img';
-import toggle from '../../asset/img-vector/toggle.png'
 import { motion } from 'framer-motion';
 import { Canvas } from "@react-three/fiber";
 import Mesh from './mesh';
+import Sidebar from '../navbar/sidebar';
 
 
 const Index = () => {
    useEffect(() => {
     console.log("did mount")
+    
     return () => {
         console.log("apus")
     };
    }, []);
-
     return (
         <motion.div
             initial={{ opacity: 0 }}
@@ -21,9 +21,7 @@ const Index = () => {
             transition={{ type: "spring", duration: 2, delay: 0.1 }}
             className='about__content'>
             <div className="img-bg">
-                <div className="toggle col-1">
-                    <img src={toggle} className="img-fluid" alt="" />
-                </div>
+                 <Sidebar/> 
                 <Img />
                 <div className="col-10 d-flex isi-about mx-auto">
                     <div className="text col-md-7 col-12">

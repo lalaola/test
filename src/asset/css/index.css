@@ -43,6 +43,35 @@
   color: #fff;
 }
 
+.toggle {
+  cursor: pointer;
+}
+
+.wrab-sidebar {
+  position: absolute;
+  transition: ease-in 1000ms;
+  top: 0;
+  bottom: 0;
+  background: #FFD600;
+  z-index: 9;
+  width: 40%;
+}
+.wrab-sidebar li {
+  list-style: none;
+  cursor: pointer;
+  line-height: 2.7rem;
+}
+.wrab-sidebar li:hover {
+  border-bottom: 2px solid black;
+}
+
+@media only screen and (max-width: 768px) {
+  .sidebar .wrab-sidebar {
+    background-color: #FFD600;
+    height: 100%;
+    width: 70vw;
+  }
+}
 .about {
   min-height: 100vh;
   width: 100vw;
