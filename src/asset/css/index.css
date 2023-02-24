@@ -1,0 +1,119 @@
+/* Define standard variables and values for website */
+@import url("https://fonts.googleapis.com/css2?family=Lateef:wght@200&display=swap");
+.wrap-body {
+  width: 100vw;
+  min-height: 100vh;
+  background: url("../background.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.home {
+  height: 100vh;
+}
+.home__h1Header {
+  font-family: "Lateef", "serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 87px;
+  letter-spacing: 0.06em;
+  color: rgba(255, 255, 255, 0.59);
+}
+.home__h1Footer {
+  font-family: "Jura";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 73px;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.33);
+}
+
+.nav-home {
+  width: 80vw;
+  height: 40vh;
+  transform: rotate(-3deg);
+  border: 1px solid #fff;
+  background-color: black;
+  box-shadow: 9px 4px 8px #D9D9D9;
+}
+.nav-home h1 {
+  color: #fff;
+}
+
+.about {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about__content {
+  width: 100vw;
+}
+.about__content .isi-about {
+  height: 100vh;
+  z-index: 1;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.about__content .isi-about h3 {
+  color: #FFD600;
+}
+.about__content .isi-about p {
+  font-size: 22px;
+}
+.about__content .img-bg {
+  position: relative;
+  height: 100vh;
+  z-index: 0;
+  overflow: hidden;
+}
+.about__content .img-bg .toggle {
+  position: absolute;
+  right: 0;
+  top: 1rem;
+}
+.about__content .img-bg .foto {
+  height: 100%;
+}
+.about__content .img-bg .foto .col-12 {
+  height: 100%;
+}
+.about__content .img-bg .spiral {
+  position: absolute;
+  bottom: -1rem;
+}
+.about__content .img-bg .matahari {
+  position: absolute;
+  right: 0;
+  top: 7rem;
+}
+.about__content .img-bg .pelangi {
+  position: absolute;
+  left: 0;
+}
+.about__content .img-bg .abstrak {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.about .warning {
+  background-color: black;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about .warning h1 {
+  color: red;
+  text-align: center;
+}
+.about .warning h3 {
+  color: white;
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,76 @@
+.about{
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__content{
+        width: 100vw;
+        .isi-about{
+            height: 100vh;
+            z-index: 1;
+            position: relative;
+            justify-content: center;
+            align-items: center;
+            h3{
+                color: $yellow;
+            }
+            p{
+                font-size: 22px;
+            }
+        }
+        .img-bg{
+            position: relative;
+            height: 100vh;
+            z-index: 0;
+            overflow: hidden;
+            .toggle{
+                position: absolute;
+                right: 0;
+                top: 1rem;
+            }
+            .foto{
+                height: 100%;
+                .col-12{
+                    height: 100%;
+                }
+            }
+            .spiral{
+                position: absolute ;
+                bottom: -1rem;
+
+            }
+            .matahari{
+                position: absolute ;
+                right: 0;
+                top: 7rem;
+            }
+            .pelangi{
+                position: absolute;
+                left: 0;
+            }
+            .abstrak{
+                position: absolute;
+                bottom: 0;
+                right: 0;
+            }
+        }
+    }
+    .warning{
+        background-color: black;
+        width:100%;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h1{
+            color: red;
+            text-align: center;
+        }
+        h3{
+            color: white;
+        }
+       
+    }
+}
