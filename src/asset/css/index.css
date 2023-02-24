@@ -54,7 +54,7 @@
   width: 100vw;
 }
 .about__content .isi-about {
-  height: 100vh;
+  min-height: 100vh;
   z-index: 1;
   position: relative;
   justify-content: center;
@@ -78,7 +78,7 @@
   top: 1rem;
 }
 .about__content .img-bg .foto {
-  height: 100%;
+  height: 100vh;
 }
 .about__content .img-bg .foto .col-12 {
   height: 100%;
@@ -116,4 +116,20 @@
 }
 .about .warning h3 {
   color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .about .isi-about {
+    flex-direction: column-reverse;
+  }
+  .about .isi-about p {
+    font-size: 18px;
+  }
+  .about .isi-about .foto {
+    height: 50vh;
+    margin-top: -2rem;
+  }
+  .about .isi-about .text {
+    margin-top: -2rem;
+  }
 }/*# sourceMappingURL=index.css.map */

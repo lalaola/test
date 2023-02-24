@@ -19,7 +19,7 @@ const Img = () => {
                 <img src={abstark} alt="" className='img-fluid' />
             </div>
             <div className="img col-2 spiral">
-                <img src={spiral} alt="" className='spiral' />
+                <img src={spiral} alt="" className='img-fluid' />
             </div>
         </div>
     );
